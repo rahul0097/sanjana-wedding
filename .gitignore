@@ -1,0 +1,4 @@
+scratch/
+scratch_*.html
+*.log
+.DS_Store
