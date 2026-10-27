@@ -1,151 +1,170 @@
-# 👑 Shubh Aarambh - Royal Wedding Invitation Website
+# 💍 Rahul & Sanjana — Royal Wedding Invitation
 
-A luxury, interactive Indian royal wedding invitation website recreated from **[myinvitations.io/invitation/shubh-aarambh/](https://myinvitations.io/invitation/shubh-aarambh/)**.
+> *“Two souls, one heart, one beautiful journey.”*
 
----
+A bespoke, royal Indian wedding invitation web experience crafted for **Rahul Singh & Sanjana Ramakrishnan**, celebrating their sacred union at **Le Vivanta, Virar, Mumbai** from **9th to 11th February 2027**.
 
-## 🌟 Key Features & Animations
-
-1. **Pre-loader**:
-   - Circular progress ring counter with smooth easing.
-2. **Video Cover Opening ("Tap to Open")**:
-   - Fullscreen video & poster cover with glowing animated button.
-   - Smooth opening door/unlock transition that automatically plays background music.
-3. **Hero Palace Arch Section**:
-   - Dynamic palace background (desktop & mobile responsive).
-   - Fluttering doves animation across the sky.
-   - Royal arch frame, sacred Sanskrit shloka (*मंगलम् भगवान विष्णु...*), host parents' details, and couple names with gold accents.
-   - Swaying floral bouquets with mouse parallax and mobile tilt.
-4. **Royal Farman / Scroll Unrolling Animation**:
-   - Interactive royal scroll (*Patrika*) unrolling with traditional invitation wording.
-5. **"Meet The Couple" Profile Cards**:
-   - Shimmering gold text gradients for Bride & Groom names.
-   - Glowing circular portrait frames.
-   - Floating hearts and sparkle animations.
-6. **"Save The Date" & Countdown Timer**:
-   - Interactive pull-to-reveal royal door/scratch seal.
-   - Live real-time countdown timer (Days, Hours, Minutes, Seconds).
-7. **Photo Memories - Polaroid Gallery Stack**:
-   - Card stack animation with smooth drag and scroll-through.
-   - Hanging fairy lights / lanterns with warm filament glow.
-   - Fullscreen interactive lightbox viewer.
-8. **3D Flip Calendar Book (Wedding Functions)**:
-   - Realistic 3D turnable book pages for each function:
-     - **Maahi Geet** (Tue, 9 Feb 2027 · 6:30 PM – 9:00 PM)
-     - **Wedding Reception** (Wed, 10 Feb 2027 · From 6:00 PM onwards · Dinner at 9:00 PM)
-     - **Wedding Phere** (Wed, 10 Feb 2027 · 10:00 PM – 4:00 AM)
-     - **Vidaai** (Thu, 11 Feb 2027 · 4:00 AM – 5:00 AM)
-   - Dates, timings, venue addresses, *"Get Directions"* and *"Add to Calendar"* buttons.
-9. **Venue Details & Google Maps**:
-   - Venue highlights (*Le Vivanta - Virar, Mumbai*).
-   - Embedded interactive Google Map and navigation link.
-10. **Romantic Poetry & Thank You Blessing**:
-    - Warm wishes and blessing message in a royal maroon & gold footer.
-11. **Floating Background Music Player**:
-    - Romantic wedding melody with interactive floating player.
-    - Animated music equalizer bars and auto-resume.
+🌐 **Live Website**: [https://rahul0097.github.io/sanjana-wedding/](https://rahul0097.github.io/sanjana-wedding/)
 
 ---
 
-## 📁 Project Structure
+## 👑 The Couple & Hosts
+
+- **The Bride**: **Sanjana Ramakrishnan**  
+  *Daughter of Mrs. Rajeswari Ramakrishnan & Mr. Visvesvaran Ramakrishnan (Hosts)*
+- **The Groom**: **Rahul Singh**  
+  *Son of Mrs. Geeta Singh & Mr. Rajkumar Singh*
+- **Wedding Destination**: **Le Vivanta — Virar, Mumbai, Maharashtra, India**
+- **Dates**: **9th — 11th February 2027**
+
+---
+
+## 🌟 Key Features & Interactive Elements
+
+1. **Royal Shubh Aarambh Entrance & Door Reveal**:
+   - Cinematic entry video with royal brass fanfare.
+   - Interactive golden wax-seal door that opens the invitation upon guest tap.
+   - Automatic background music trigger (*"Ishq Hai..."*).
+
+2. **Hero Palace Archway**:
+   - Golden Rajasthani palace arch with fluttering doves.
+   - Sacred Sanskrit blessing (*मंगलम् भगवान विष्णु...*).
+   - Swaying floral marigold garlands responding to mouse move / phone tilt.
+
+3. **Meet The Couple**:
+   - Royal circular diamond filigree frames.
+   - Perfectly centered portraits for both Bride & Groom.
+   - Warm golden shimmer typography and romantic couple introductions.
+
+4. **"Where It All Began" & Live Countdown Timer**:
+   - Childhood keepsake portrait (*"These Kids Are Getting Married"*).
+   - Real-time countdown timer tracking days, hours, minutes, and seconds until festivities commence.
+
+5. **Photo Memories (Polaroid Gallery)**:
+   - Floating Polaroid photo stack with hanging fairy lights and ambient filament glow.
+   - Interactive swipe/carousel navigation and full-screen lightbox viewer.
+
+6. **3D Interactive Wedding Itinerary Booklet**:
+   - Realistic page-turning flipbook with responsive dual modes:
+     - **Desktop**: Horizontal two-page spread with realistic book binding and spine shadow.
+     - **Mobile**: Vertical flip card layout optimized for one-thumb scrolling.
+   - **4 Sacred Wedding Functions**:
+     - 🪕 **Maahi Geet**: Tuesday, 9th Feb 2027 · 6:30 PM – 9:00 PM
+     - 🐎 **Wedding Reception**: Wednesday, 10th Feb 2027 · From 6:00 PM onwards · Dinner at 9:00 PM
+     - 🔥 **Wedding Phere**: Wednesday, 10th Feb 2027 · 10:00 PM – 4:00 AM
+     - 🕊️ **Vidaai**: Thursday, 11th Feb 2027 · 4:00 AM – 5:00 AM
+   - Integrated **"Get Directions"** (Google Maps) and **"Add to Calendar"** (.ics / Google Calendar) buttons on every event.
+   - Refined navigation buttons (*Close* and *Next*) with generous clearance from the decorative gold page borders.
+
+7. **The Venue & Sacred Mandap Showcase**:
+   - Panoramic architectural illustration of the sacred Mandap and palace lakeside decor.
+   - Venue coordinates, directions, and interactive embedded Google Map for Le Vivanta, Virar.
+
+8. **Interactive Celebration Video Showcase**:
+   - Portrait 9:16 vertical reel player framed with a uniform 3px royal gold-to-ruby bezel.
+   - Custom gold playback controls: center play button overlay, seekable progress scrubber, live time indicator, volume toggle, and fullscreen.
+   - **Smart Audio Coordination**: Background music automatically pauses when the video plays and resumes when paused or finished.
+
+9. **Royal Red RSVP Section (Google Sheets Connected)**:
+   - Deep crimson background with royal gold monogram.
+   - Multi-event selector pills (*All Festivities*, *Maahi Geet*, *Wedding Reception*, *Wedding Phere*, *Vidaai*).
+   - Interactive `+ / −` guest counter.
+   - Real-time submission directly to **Google Sheets** via Google Apps Script with permanent local storage backup.
+
+10. **Floating Music Equalizer**:
+    - Romantic wedding melody with floating persistent FAB.
+    - Animated audio equalizer bars indicating playing state with tap-to-mute.
+
+---
+
+## 📁 Repository Structure
 
 ```
 Wedding_site/
 │
-├── index.html         # Main standalone HTML file
-├── README.md          # Documentation & customization guide
+├── index.html                 # Main website markup & semantic structure
+├── README.md                  # Project documentation & setup instructions
+├── google_apps_script.js      # Backend script for Google Sheets RSVP sync
+│
 ├── css/
-│   └── styles.css     # Complete styling, animations, typography & responsive layouts
+│   └── styles.css             # Design system, animations, responsive layouts
+│
 ├── js/
-│   ├── jquery.min.js          # Core helper library
-│   ├── animations.js          # GSAP & ScrollTrigger animations
-│   ├── cover-video.js         # Video cover & door reveal logic
+│   ├── celebration-video.js   # Video player & audio pause coordination
+│   ├── cover-video.js         # Entry video & wax seal door interaction
+│   ├── door-reveal.js         # Countdown pull & reveal logic
+│   ├── event-flip-calendar.js # 3D realistic flipbook page engine
+│   ├── fireworks.js           # Particle & celebration effects
+│   ├── frontend.js            # General DOM interactions & scroll animations
+│   ├── gallery-coverflow.js   # Polaroid gallery stack & lightbox viewer
 │   ├── hero-palace.js         # Palace parallax, doves & flower sway
-│   ├── event-flip-calendar.js # 3D realistic book page-flip engine
-│   ├── door-reveal.js         # Door countdown pull & unlock interaction
-│   ├── gallery-coverflow.js   # Polaroid gallery stack & lightbox
-│   ├── fireworks.js           # Particle & firework effects
+│   ├── jquery.min.js          # DOM utility helper
 │   ├── music-toggle.js        # Background audio player with equalizer
-│   └── frontend.js            # Scroll events & navigation helpers
+│   └── rsvp-form.js           # RSVP validation, Google Sheets fetch & state
+│
 └── assets/
-    ├── sr-logo-gold.png       # Sanjana & Rahul gold monogram logo (transparent)
-    ├── sr-logo-maroon.png     # Sanjana & Rahul royal maroon monogram logo
-    ├── sr-logo-white.png      # Sanjana & Rahul white monogram logo
-    ├── favicon.png            # Website tab favicon badge
+    ├── wedding-video.mp4      # Celebration reel video
     ├── Shubh-Aarambh.mp4      # Royal entrance video
-    ├── cover-poster-2.jpg     # Cover poster image
-    ├── bride.png / groom.png  # Rahul & Sanjana portraits (FullSizeRender.JPG / IMG_7205.JPG)
-    ├── childhood-kids.png     # 'Where It All Began' - These Kids Are Getting Married keepsake poster
-    ├── gallery-1.png ... 6    # Photo Memories Polaroid stack (JVK_0543, JVK_0849, IMG_1339, 2.png, us.jpg, shootedits 3)
-    ├── wedding-sangeet.webp   # Event 1: Maahi Geet (Dancing celebration illustration)
-    ├── wedding-reception.webp # Event 2: Wedding Reception (Grand Baraat horse arrival illustration)
-    ├── wedding.webp           # Event 3: Wedding Phere (Mandap & sacred vows illustration)
-    ├── wedding-custom.webp    # Event 4: Vidaai (Traditional Doli procession illustration)
-    ├── wedding-vanue.webp     # Venue Mandap decor illustration
     ├── ishq_hai_...wav        # Background audio
-    └── *.webp / *.png / *.svg # Royal frames, doves, seal badges, ornaments
+    ├── bride.png              # Sanjana's portrait
+    ├── groom.png              # Rahul's portrait (centered)
+    ├── childhood-kids.png     # Childhood memories illustration
+    ├── sr-logo-gold.png       # Gold monogram emblem
+    ├── sr-logo-maroon.png     # Maroon monogram emblem
+    ├── wedding-sangeet.webp   # Event 1: Maahi Geet art
+    ├── wedding-reception.webp # Event 2: Wedding Reception art
+    ├── wedding.webp           # Event 3: Wedding Phere art
+    ├── wedding-custom.webp    # Event 4: Vidaai art
+    ├── wedding-vanue.webp     # Sacred Mandap venue art
+    ├── gallery-1.png ... 6    # Couple photo memories
+    └── *.png, *.webp, *.svg   # Royal frames, seals, dividers, ornaments
 ```
 
 ---
 
-## 🚀 How to Run Locally
+## 💌 Live Google Sheets RSVP Setup
 
-You can run this project directly with any static server:
+The RSVP form sends submissions directly to your personal Google Sheet:
 
-### Option 1: Python
+1. Open **[Google Sheets](https://sheets.google.com)** and create a new blank sheet named `Sanjana & Rahul Wedding RSVPs`.
+2. Go to **Extensions** ➔ **Apps Script**.
+3. Replace any existing code with the contents of [google_apps_script.js](file:///d:/Wedding_site/google_apps_script.js) and save (💾).
+4. Click **Deploy** ➔ **New deployment** ➔ Select type: **Web app**.
+5. Set **Execute as**: `Me` and **Who has access**: `Anyone`.
+6. Click **Deploy**, grant permissions, and copy the **Web app URL**.
+7. Paste this URL into [js/rsvp-form.js](file:///d:/Wedding_site/js/rsvp-form.js) line 15:
+   ```javascript
+   var GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/.../exec';
+   ```
+
+Each submission records: **Timestamp, Guest Name, Email, Phone, Number of Guests, Selected Events, and Blessings / Notes**.
+
+---
+
+## 🚀 Deployment (GitHub Pages)
+
+This static web invitation is deployed on **GitHub Pages**:
+
+1. In the repository on GitHub, go to **Settings** ➔ **Pages**.
+2. Under **Build and deployment** ➔ **Source**, select `Deploy from a branch`.
+3. Choose branch: `main` and folder: `/ (root)`.
+4. Click **Save**.
+5. Your website is automatically published at:
+   ```
+   https://rahul0097.github.io/sanjana-wedding/
+   ```
+
+---
+
+## 💻 Running Locally
+
+To run and preview locally:
 ```bash
 # In the project directory:
 python -m http.server 3000
 ```
-Then open `http://localhost:3000` in your web browser.
-
-### Option 2: VS Code Live Server
-Right-click on `index.html` and select **"Open with Live Server"**.
+Then navigate to `http://localhost:3000` in any web browser.
 
 ---
 
-## 💌 Wedding RSVP & Google Drive / Excel Integration
-
-The website includes an interactive royal RSVP section placed on a gold-flecked royal red background after the celebration footer.
-
-### Form Fields Included:
-- **Full Name** (`name`)
-- **Email Address** (`email`)
-- **Contact / Phone / WhatsApp** (`phone`)
-- **Number of People / Guests** (interactive `+` / `−` counter)
-- **Occasions / Events Attending** (Multi-select pills: *All Festivities*, *Maahi Geet & Sangeet*, *Wedding Reception*, *Wedding Phere*, *Vidaai*)
-
-### Features:
-1. **Google Sheets Sync (Google Drive)**: Automatically appends each guest's RSVP as a new row into your Google Sheet via Google Apps Script.
-2. **Offline-Safe Local Backup**: Submissions are automatically backed up in the browser's `localStorage`.
-3. **1-Click Excel / CSV Export**: Click **"Download Guest List (Excel CSV)"** at the bottom of the RSVP form to immediately download an Excel-compatible `.csv` file.
-
----
-
-### 📋 3-Minute Google Sheets Setup (Save directly to Google Drive as Excel):
-
-1. Go to [Google Sheets](https://sheets.google.com) and create a **Blank Spreadsheet**.
-2. Name it: `Sanjana & Rahul Wedding RSVPs`.
-3. In the top menu, click **Extensions** → **Apps Script**.
-4. Open the file `google_apps_script.js` in this repository, copy all the code, and paste it into the Apps Script editor (replacing any default text).
-5. Click the **Save** icon (💾).
-6. In the top right, click **Deploy** → **New deployment**.
-7. Click the gear icon (⚙️) next to *Select type* and choose **Web app**.
-8. Fill in:
-   - **Description**: `Wedding RSVP Service`
-   - **Execute as**: `Me`
-   - **Who has access**: `Anyone` *(Crucial so guests can submit without signing into Google)*
-9. Click **Deploy**, authorize permissions if prompted, and copy the generated **Web app URL** (e.g. `https://script.google.com/macros/s/.../exec`).
-10. Open [index.html](file:///d:/Wedding_site/index.html) and paste this URL into the `data-script-url` attribute on `<form id="im-rsvp-form" data-script-url="...">` (or in [rsvp-form.js](file:///d:/Wedding_site/js/rsvp-form.js) line 15).
-
----
-
-## 🎨 How to Customize
-
-- **Couple & Parents Names**:
-  - Bride: `Sanjana Ramakrishnan` (Daughter of `Mr. Visvesvaran Ramakrishnan & Mrs. Rajeswari Ramakrishnan` — Hosts)
-  - Groom: `Rahul Singh` (Son of `Mr. Rajkumar Singh & Mrs. Geeta Singh`)
-- **Wedding Date & Countdown**: Update `data-countdown-target` in `index.html`.
-- **Events & Timings**: In the `.im-flipcal` section in `index.html`, edit the function names, dates, timings, and Google Maps venue links.
-- **Photos & Media**: Replace files inside `assets/` (e.g. `bride.png`, `groom.png`, `gallery-*.png`) or change image paths directly in `index.html`.
-
+*Made with love for Rahul & Sanjana’s Special Day.*
