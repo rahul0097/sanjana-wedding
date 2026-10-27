@@ -12,7 +12,7 @@
 	'use strict';
 
 	// Default Google Apps Script URL (Can be customized via form data-script-url attribute)
-	var GOOGLE_SCRIPT_URL = '';
+	var GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzRIgtTFV4KyAYv3CFEfjd4cVWCk4D2d71ZECOTJyfoKHordzbjFT131ZZhp9Hxv7N-/exec';
 
 	function initRSVP() {
 		var form = document.getElementById('im-rsvp-form');
