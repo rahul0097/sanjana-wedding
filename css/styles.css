@@ -4410,6 +4410,10 @@ body .im-flipcal__corner--next {
 }
 
 /* In vertical/mobile flipbook mode */
+body .im-flipcal__actions {
+    display: none !important;
+}
+
 body .im-flipcal.is-vertical .im-flipcal__corner {
     bottom: 8.2% !important;
 }
