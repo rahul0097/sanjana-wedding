@@ -3536,11 +3536,11 @@ body .im-hero-palace__arch--placeholder{
 
 /* Hero Palace Typography & Details Layout */
 body .im-hero-palace__details {
-    top: clamp(55px, 11vh, 90px) !important;
+    top: clamp(120px, 19vh, 185px) !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 90% !important;
-    max-width: 480px !important;
+    max-width: 460px !important;
     text-align: center !important;
     z-index: 10 !important;
 }
@@ -3681,9 +3681,12 @@ body .im-hero-palace__motion{
     }
 
     body .im-hero-palace__details {
-        top: clamp(75px, 13.5vh, 115px) !important;
-        width: 92% !important;
-        max-width: 360px !important;
+        top: clamp(138px, 22.5vh, 205px) !important;
+        width: 88% !important;
+        max-width: 320px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin: 0 auto !important;
     }
 
     body .im-hero-palace__crest {
