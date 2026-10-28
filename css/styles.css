@@ -3536,11 +3536,11 @@ body .im-hero-palace__arch--placeholder{
 
 /* Hero Palace Typography & Details Layout */
 body .im-hero-palace__details {
-    top: clamp(14px, 4vh, 36px) !important;
+    top: clamp(55px, 11vh, 90px) !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 90% !important;
-    max-width: 460px !important;
+    max-width: 480px !important;
     text-align: center !important;
     z-index: 10 !important;
 }
@@ -3673,14 +3673,21 @@ body .im-hero-palace__motion{
 
 
 @media (max-width: 767px) {
+    .im-hero-palace {
+        min-height: 100vh;
+        min-height: 100dvh;
+        height: 100vh;
+        height: 100dvh;
+    }
+
     body .im-hero-palace__details {
-        top: clamp(10px, 2.8vh, 22px) !important;
+        top: clamp(75px, 13.5vh, 115px) !important;
         width: 92% !important;
         max-width: 360px !important;
     }
 
     body .im-hero-palace__crest {
-        margin-bottom: 2px !important;
+        margin: 0 auto 3px !important;
     }
 
     body .im-hero-palace__crest img {
@@ -3688,15 +3695,15 @@ body .im-hero-palace__motion{
     }
 
     body .im-hero-palace__eyebrow {
-        margin: 0 auto 3px !important;
-        font-size: clamp(9px, 2.5vw, 10.5px) !important;
+        margin: 0 auto 4px !important;
+        font-size: clamp(9.5px, 2.5vw, 11px) !important;
         letter-spacing: 0.18em !important;
         line-height: 1.2 !important;
     }
 
     body .im-hero-palace__name {
         font-size: clamp(28px, 7.8vw, 34px) !important;
-        line-height: 1.04 !important;
+        line-height: 1.05 !important;
     }
 
     body .im-hero-palace__ampersand {
@@ -3710,50 +3717,22 @@ body .im-hero-palace__motion{
     }
 }
 
-@media (max-width: 380px), (max-height: 680px) and (max-width: 767px) {
+@media (max-height: 480px) and (orientation: landscape) {
     body .im-hero-palace__details {
-        top: 8px !important;
+        top: 25px !important;
     }
 
     body .im-hero-palace__crest img {
-        width: 36px !important;
-    }
-
-    body .im-hero-palace__crest {
-        margin-bottom: 1px !important;
-    }
-
-    body .im-hero-palace__eyebrow {
-        font-size: 9px !important;
-        margin-bottom: 2px !important;
-    }
-
-    body .im-hero-palace__name {
-        font-size: 28px !important;
-    }
-
-    body .im-hero-palace__ampersand {
-        font-size: 15px !important;
-        margin: 0 !important;
-    }
-}
-
-@media (max-height: 620px) {
-    body .im-hero-palace__details {
-        top: 6px !important;
-    }
-
-    body .im-hero-palace__crest img {
-        width: 34px !important;
+        width: 32px !important;
     }
 
     body .im-hero-palace__eyebrow {
         font-size: 8.5px !important;
-        margin-bottom: 1px !important;
+        margin-bottom: 2px !important;
     }
 
     body .im-hero-palace__name {
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
 
     body .im-hero-palace__ampersand {
