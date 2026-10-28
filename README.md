@@ -167,4 +167,4 @@ Then navigate to `http://localhost:3000` in any web browser.
 
 ---
 
-*Made with love for Rahul & Sanjana’s Special Day.*
+*Made with love for Rahul & Sanjana’s Special Day by Rahul Singh.*
