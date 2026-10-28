@@ -58,6 +58,10 @@
 
         function togglePlay() {
             if (video.paused || video.ended) {
+                // If it reached the end or past 18s, restart cleanly from beginning
+                if (video.currentTime >= 18 || (video.duration && video.currentTime >= video.duration - 0.2)) {
+                    video.currentTime = 0;
+                }
                 video.play();
             } else {
                 video.pause();
@@ -65,7 +69,7 @@
         }
 
         function updatePlayState() {
-            if (video.paused) {
+            if (video.paused || video.ended) {
                 box.classList.remove('is-playing');
                 if (iconPlay) iconPlay.style.display = 'block';
                 if (iconPause) iconPause.style.display = 'none';
@@ -85,6 +89,18 @@
             return mins + ':' + (secs < 10 ? '0' : '') + secs;
         }
 
+        function stopAndResetAtEnd() {
+            if (!video.paused && !video.ended) {
+                video.pause();
+            }
+            video.currentTime = 0;
+            if (progressFill) progressFill.style.width = '0%';
+            if (timeLabel && video.duration) {
+                timeLabel.textContent = '0:00 / ' + formatTime(video.duration);
+            }
+            updatePlayState();
+        }
+
         if (playOverlay) {
             playOverlay.addEventListener('click', togglePlay);
         }
@@ -102,10 +118,7 @@
         });
         video.addEventListener('play', updatePlayState);
         video.addEventListener('pause', updatePlayState);
-        video.addEventListener('ended', function () {
-            updatePlayState();
-            resumeMainMusic();
-        });
+        video.addEventListener('ended', stopAndResetAtEnd);
 
         video.addEventListener('timeupdate', function () {
             if (video.duration) {
@@ -113,7 +126,30 @@
                 if (progressFill) progressFill.style.width = pct + '%';
                 if (timeLabel) timeLabel.textContent = formatTime(video.currentTime) + ' / ' + formatTime(video.duration);
             }
+            // Stop once 18-second video finishes playing instead of looping
+            if (video.currentTime >= 18 || (video.duration && video.currentTime >= video.duration - 0.15)) {
+                if (!video.paused && !video.ended) {
+                    stopAndResetAtEnd();
+                }
+            }
         });
+
+        // Pause celebration video & resume background music if user scrolls away from the video
+        if ('IntersectionObserver' in window) {
+            var scrollObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (!entry.isIntersecting || entry.intersectionRatio < 0.15) {
+                        if (!video.paused) {
+                            video.pause();
+                            updatePlayState();
+                        }
+                    }
+                });
+            }, {
+                threshold: [0, 0.15]
+            });
+            scrollObserver.observe(box);
+        }
 
         if (progressBar) {
             progressBar.addEventListener('click', function (e) {
