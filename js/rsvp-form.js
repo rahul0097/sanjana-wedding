@@ -100,13 +100,17 @@
 				selectedOccasions = ['All Festivities'];
 			}
 
+			var emailEl = document.getElementById('rsvp-email');
+			var phoneEl = document.getElementById('rsvp-phone');
+			var msgEl = document.getElementById('rsvp-message');
+
 			var payload = {
 				name: (document.getElementById('rsvp-name').value || '').trim(),
-				email: (document.getElementById('rsvp-email').value || '').trim(),
-				phone: (document.getElementById('rsvp-phone').value || '').trim(),
+				email: (emailEl ? emailEl.value : '').trim(),
+				phone: (phoneEl ? phoneEl.value : '').trim(),
 				guests: (guestsInput ? guestsInput.value : '1'),
 				occasions: selectedOccasions.join(', '),
-				message: ((document.getElementById('rsvp-message') && document.getElementById('rsvp-message').value) || '').trim(),
+				message: (msgEl ? msgEl.value : '').trim(),
 				submittedAt: new Date().toISOString()
 			};
 

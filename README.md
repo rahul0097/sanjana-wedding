@@ -1,8 +1,8 @@
-# 💍 Rahul & Sanjana — Royal Wedding Invitation
+# 💍 Sanjana & Rahul — Royal Wedding Invitation
 
 > *“Two souls, one heart, one beautiful journey.”*
 
-A bespoke, royal Indian wedding invitation web experience crafted for **Rahul Singh & Sanjana Ramakrishnan**, celebrating their sacred union at **Le Vivanta, Virar, Mumbai** from **9th to 11th February 2027**.
+A bespoke, royal Indian wedding invitation web experience crafted for **Sanjana Ramakrishnan & Rahul Singh**, celebrating their sacred union at **Le Vivanta, Virar, Mumbai** from **9th to 10th February 2027**.
 
 🌐 **Live Website**: [https://rahul0097.github.io/sanjana-wedding/](https://rahul0097.github.io/sanjana-wedding/)
 
@@ -15,7 +15,7 @@ A bespoke, royal Indian wedding invitation web experience crafted for **Rahul Si
 - **The Groom**: **Rahul Singh**  
   *Son of Mrs. Geeta Singh & Mr. Rajkumar Singh*
 - **Wedding Destination**: **Le Vivanta — Virar, Mumbai, Maharashtra, India**
-- **Dates**: **9th — 11th February 2027**
+- **Dates**: **9th — 10th February 2027**
 
 ---
 
@@ -33,11 +33,11 @@ A bespoke, royal Indian wedding invitation web experience crafted for **Rahul Si
 
 3. **Meet The Couple**:
    - Royal circular diamond filigree frames.
-   - Perfectly centered portraits for both Bride & Groom.
+   - Perfectly centered portraits for both Bride & Groom (Sanjana & Rahul).
    - Warm golden shimmer typography and romantic couple introductions.
 
 4. **"Where It All Began" & Live Countdown Timer**:
-   - Childhood keepsake portrait (*"These Kids Are Getting Married"*).
+   - Couple keepsake portrait with romantic verse.
    - Real-time countdown timer tracking days, hours, minutes, and seconds until festivities commence.
 
 5. **Photo Memories (Polaroid Gallery)**:
@@ -49,12 +49,12 @@ A bespoke, royal Indian wedding invitation web experience crafted for **Rahul Si
      - **Desktop**: Horizontal two-page spread with realistic book binding and spine shadow.
      - **Mobile**: Vertical flip card layout optimized for one-thumb scrolling.
    - **4 Sacred Wedding Functions**:
-     - 🪕 **Maahi Geet**: Tuesday, 9th Feb 2027 · 6:30 PM – 9:00 PM
-     - 🐎 **Wedding Reception**: Wednesday, 10th Feb 2027 · From 6:00 PM onwards · Dinner at 9:00 PM
-     - 🔥 **Wedding Phere**: Wednesday, 10th Feb 2027 · 10:00 PM – 4:00 AM
-     - 🕊️ **Vidaai**: Thursday, 11th Feb 2027 · 4:00 AM – 5:00 AM
+     - 🪕 **Maahi Geet**: Tuesday, 9th Feb 2027 · Royal Hall · 6:30 PM – 9:00 PM
+     - 🐎 **Wedding Reception**: Wednesday, 10th Feb 2027 · Jupiter Hall · From 6:30 PM onwards · Dinner at 8:30 PM
+     - 🔥 **Wedding Phere**: Wednesday, 10th Feb 2027 · Jupiter Hall · 10:00 PM – 4:00 AM
+     - 🕊️ **Vidaai**: Thursday, 11th Feb 2027 · Jupiter Hall · 4:00 AM – 5:00 AM
    - Integrated **"Get Directions"** (Google Maps) and **"Add to Calendar"** (.ics / Google Calendar) buttons on every event.
-   - Refined navigation buttons (*Close* and *Next*) with generous clearance from the decorative gold page borders.
+   - Refined navigation buttons (*Close* and *Next*) with close action smoothly returning to the front cover.
 
 7. **The Venue & Sacred Mandap Showcase**:
    - Panoramic architectural illustration of the sacred Mandap and palace lakeside decor.

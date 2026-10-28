@@ -95,6 +95,11 @@
             });
         }
         video.addEventListener('click', togglePlay);
+        video.addEventListener('loadedmetadata', function () {
+            if (timeLabel && video.duration) {
+                timeLabel.textContent = '0:00 / ' + formatTime(video.duration);
+            }
+        });
         video.addEventListener('play', updatePlayState);
         video.addEventListener('pause', updatePlayState);
         video.addEventListener('ended', function () {
