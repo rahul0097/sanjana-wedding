@@ -4451,11 +4451,62 @@ body .im-venue-map__grid{
     width: 100%;
 }
 
+/* Venue Map Section - Spacing & Brilliant Gold Styling */
 body .im-venue-map{
     background-image: url(../assets/red-bg.webp);
     background-size: contain;
     background-repeat: repeat;
-    padding: 50px 20px 80px;
+    background-color: transparent !important;
+    padding: 85px 24px 95px !important;
+    position: relative;
+    z-index: 1;
+}
+
+body .im-venue-map .im-venue-map__heading {
+    margin: 0 auto 28px !important;
+    max-width: 640px;
+    text-align: center;
+}
+
+body .im-venue-map .im-venue-map__eyebrow {
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 32px !important;
+    font-weight: 400 !important;
+    color: #f6d88c !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    text-shadow: 0 0 16px rgba(246, 216, 140, 0.55), 0 2px 4px rgba(0, 0, 0, 0.6) !important;
+    letter-spacing: 0.05em !important;
+    margin: 0 0 6px 0 !important;
+    line-height: 1.3 !important;
+}
+
+body .im-venue-map .im-venue-map__title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    margin: 0 0 8px 0 !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.03em !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+body .im-venue-map .im-venue-map__title-rule {
+    background: linear-gradient(90deg, transparent, rgba(246, 216, 140, 0.85), transparent) !important;
+    height: 1.5px !important;
+    margin: 8px auto 10px !important;
+    width: 140px !important;
+}
+
+body .im-venue-map .im-venue-map__subtitle {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #fcebd2 !important;
+    letter-spacing: 0.08em !important;
+    margin: 0 !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
 }
 body .im-flipcal{
     position: relative;
@@ -4595,10 +4646,28 @@ body .im-venue-map .im-venue-map__button--outline{
 }
 @media screen and (max-width: 600px) {
     body .im-venue-map {
-        padding: 40px 16px 70px !important;
+        padding: 72px 16px 85px !important;
+    }
+    body .im-venue-map .im-venue-map__heading {
+        margin: 0 auto 22px !important;
+    }
+    body .im-venue-map .im-venue-map__eyebrow {
+        font-size: 28px !important;
+        margin: 0 0 4px 0 !important;
+    }
+    body .im-venue-map .im-venue-map__title {
+        font-size: 34px !important;
+        margin: 0 0 6px 0 !important;
+    }
+    body .im-venue-map .im-venue-map__title-rule {
+        margin: 6px auto 8px !important;
+        width: 120px !important;
+    }
+    body .im-venue-map .im-venue-map__subtitle {
+        font-size: 14.5px !important;
     }
     .im-venue-map__mandap-showcase {
-        margin-bottom: 20px;
+        margin-bottom: 24px !important;
     }
     .im-venue-map__mandap-frame {
         border-radius: 18px;
@@ -4620,15 +4689,6 @@ body .im-venue-map .im-venue-map__button--outline{
     body .im-venue-map .im-venue-map__map-card {
         border-radius: 20px !important;
         min-height: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    body .im-venue-map {
-        padding-bottom: 90px !important;
-    }
-    body .im-venue-map .im-venue-map__title{
-        font-size: 34px !important;
     }
 }
 @media ( max-width: 540px ) {
@@ -4698,9 +4758,7 @@ body .im-wedding-quote::after {
     background-size: cover;
 }
 
-body .im-venue-map{
-    padding-bottom: 100px;
-}
+
 
 @media (min-width: 768px) {
     body .im-wedding-quote {
@@ -4717,9 +4775,7 @@ body .im-venue-map{
         margin-top: -240px;
     }
 
-    body .im-venue-map{
-        padding-bottom: 0;
-    }
+
 
     body .im-wedding-quote{
         padding: 20px 20px;
