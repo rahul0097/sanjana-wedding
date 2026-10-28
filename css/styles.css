@@ -4727,30 +4727,42 @@ body .im-love-footer .im-love-footer__floating-heart svg{
 }
 
 
-body .im-love-footer{
-    background: transparent !important;
-    padding-top: 452px;
-    margin-top: -420px;
-}
-
-
-
-body .im-wedding-quote,
-body .im-venue-map{
-    position: relative;
-    z-index: 1;
-}
-
-body .im-love-footer .im-love-footer__floral-glyph--flower,
-body .im-love-footer .im-love-footer__floral-glyph,
-body .im-love-footer .im-love-footer__floral-glyph{
-    color: #8b3a4b;
-}
-
-body .im-wedding-quote{
+/* =========================================================================
+   Shortened & Harmonious Finale (Quote + Thank You / Blessings Footer)
+   ========================================================================= */
+body .im-wedding-quote {
     position: relative;
     overflow: visible;
+    background: transparent !important;
+    padding: 56px 20px 8px !important;
+    z-index: 1;
+    text-align: center;
 }
+
+body .im-wedding-quote .im-wedding-quote__inner {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .im-wedding-quote .im-wedding-quote__text {
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 38px !important;
+    font-weight: 400 !important;
+    color: #8b3a4b !important;
+    line-height: 1.35 !important;
+    margin: 0 auto !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+}
+
+body .im-wedding-quote .im-wedding-quote__rule {
+    width: 120px !important;
+    height: 1px !important;
+    background: linear-gradient(90deg, transparent, rgba(201, 165, 93, 0.8), transparent) !important;
+    margin: 12px auto 0 !important;
+}
+
 body .im-wedding-quote::after {
     position: absolute;
     content: '';
@@ -4762,27 +4774,118 @@ body .im-wedding-quote::after {
     background-size: cover;
 }
 
-
-
-@media (min-width: 768px) {
-    body .im-wedding-quote {
-        padding: 63px 20px 30px;
-    }
+body .im-love-footer {
+    background: transparent !important;
+    padding: 14px 20px 48px !important;
+    margin-top: 0 !important;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
 }
 
-@media (max-width: 480px) {
-    .im-love-footer .im-love-footer__thank-you{
-        font-size: 14px !important;
+body .im-love-footer .im-love-footer__inner {
+    margin: 0 auto;
+    max-width: 640px;
+    position: relative;
+    z-index: 1;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+body .im-love-footer__logo-wrap {
+    text-align: center;
+    margin: 0 auto 10px !important;
+}
+
+body .im-love-footer__logo-wrap img {
+    width: 82px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block;
+}
+
+body .im-love-footer .im-love-footer__names {
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 34px !important;
+    font-weight: 400 !important;
+    color: #8b3a4b !important;
+    margin: 0 0 4px !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    line-height: 1.2 !important;
+}
+
+body .im-love-footer .im-love-footer__floral-divider {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 10px 0 12px !important;
+}
+
+body .im-love-footer .im-love-footer__floral-glyph {
+    color: #8b3a4b !important;
+    font-size: 13px !important;
+}
+
+body .im-love-footer .im-love-footer__floral-glyph--flower {
+    color: #8b3a4b !important;
+    font-size: 16px !important;
+}
+
+body .im-love-footer .im-love-footer__thank-you {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: #8b3a4b !important;
+    margin: 0 0 10px 0 !important;
+    line-height: 1.3 !important;
+}
+
+body .im-love-footer .im-love-footer__event-info {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 13px !important;
+    color: #8b3a4b !important;
+    margin: 10px 0 0 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    letter-spacing: 0.04em;
+}
+
+@media (max-width: 600px) {
+    body .im-wedding-quote {
+        padding: 46px 16px 6px !important;
     }
-    body .im-love-footer{
-        padding-top: 260px;
-        margin-top: -240px;
+
+    body .im-wedding-quote .im-wedding-quote__text {
+        font-size: 28px !important;
     }
 
+    body .im-wedding-quote .im-wedding-quote__rule {
+        width: 90px !important;
+        margin: 10px auto 0 !important;
+    }
 
+    body .im-love-footer {
+        padding: 8px 16px 40px !important;
+    }
 
-    body .im-wedding-quote{
-        padding: 20px 20px;
+    body .im-love-footer__logo-wrap img {
+        width: 72px !important;
+    }
+
+    body .im-love-footer .im-love-footer__names {
+        font-size: 28px !important;
+    }
+
+    body .im-love-footer .im-love-footer__thank-you {
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
+    }
+
+    body .im-love-footer .im-love-footer__event-info {
+        font-size: 12px !important;
     }
 }
 
