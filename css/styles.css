@@ -3534,20 +3534,75 @@ body .im-hero-palace__arch--placeholder{
     display: none;
 }
 
-body .im-hero-palace__eyebrow{
-    max-width: 100% !important;
+/* Hero Palace Typography & Details Layout */
+body .im-hero-palace__details {
+    top: clamp(14px, 4vh, 36px) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 90% !important;
+    max-width: 460px !important;
+    text-align: center !important;
+    z-index: 10 !important;
 }
 
-body .im-hero-palace__details{
-    top: 7% !important;
-}
-
-body .im-hero-palace.is-opened .im-hero-palace__details:before{
-    opacity: 0;
+body .im-hero-palace.is-opened .im-hero-palace__details:before {
+    opacity: 0 !important;
 }
 
 .im-hero-palace.is-opened .im-hero-palace__details>:first-child::before {
     display: none !important;
+}
+
+body .im-hero-palace__crest {
+    margin: 0 auto clamp(4px, 1vh, 8px) !important;
+    text-align: center !important;
+}
+
+body .im-hero-palace__crest img {
+    width: clamp(48px, 6vw, 64px) !important;
+    height: auto !important;
+    filter: drop-shadow(0 2px 6px rgba(184, 134, 11, 0.22)) !important;
+    transition: transform 0.4s ease;
+}
+
+body .im-hero-palace__eyebrow {
+    font-family: inherit !important;
+    font-size: clamp(10px, 1.3vw, 12px) !important;
+    font-weight: 500 !important;
+    color: #7a5a55 !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+    margin: 0 auto clamp(3px, 0.8vh, 6px) !important;
+    line-height: 1.25 !important;
+    max-width: 100% !important;
+}
+
+body .im-hero-palace__names {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+body .im-hero-palace__name {
+    font-family: 'Great Vibes', cursive !important;
+    font-weight: 400 !important;
+    color: #8b3a4b !important;
+    font-size: clamp(38px, 4.8vw, 50px) !important;
+    line-height: 1.05 !important;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6) !important;
+    white-space: nowrap !important;
+}
+
+body .im-hero-palace__ampersand {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 500 !important;
+    color: #b8862f !important;
+    font-size: clamp(18px, 2.2vw, 22px) !important;
+    line-height: 1 !important;
+    margin: 1px 0 !important;
 }
 
 
@@ -3618,19 +3673,93 @@ body .im-hero-palace__motion{
 
 
 @media (max-width: 767px) {
-   body  .im-hero-palace__details {
-        top: 8% !important;
+    body .im-hero-palace__details {
+        top: clamp(10px, 2.8vh, 22px) !important;
+        width: 92% !important;
+        max-width: 360px !important;
     }
 
-    body .im-hero-palace__eyebrow{
-        margin-bottom: 15px;
-        font-size: 11px !important;
+    body .im-hero-palace__crest {
+        margin-bottom: 2px !important;
     }
 
-    body .im-hero-palace__birds{
-            top: -6%;
+    body .im-hero-palace__crest img {
+        width: clamp(38px, 10vw, 44px) !important;
     }
 
+    body .im-hero-palace__eyebrow {
+        margin: 0 auto 3px !important;
+        font-size: clamp(9px, 2.5vw, 10.5px) !important;
+        letter-spacing: 0.18em !important;
+        line-height: 1.2 !important;
+    }
+
+    body .im-hero-palace__name {
+        font-size: clamp(28px, 7.8vw, 34px) !important;
+        line-height: 1.04 !important;
+    }
+
+    body .im-hero-palace__ampersand {
+        font-size: clamp(16px, 4.2vw, 18px) !important;
+        line-height: 1 !important;
+        margin: 1px 0 !important;
+    }
+
+    body .im-hero-palace__birds {
+        top: -6%;
+    }
+}
+
+@media (max-width: 380px), (max-height: 680px) and (max-width: 767px) {
+    body .im-hero-palace__details {
+        top: 8px !important;
+    }
+
+    body .im-hero-palace__crest img {
+        width: 36px !important;
+    }
+
+    body .im-hero-palace__crest {
+        margin-bottom: 1px !important;
+    }
+
+    body .im-hero-palace__eyebrow {
+        font-size: 9px !important;
+        margin-bottom: 2px !important;
+    }
+
+    body .im-hero-palace__name {
+        font-size: 28px !important;
+    }
+
+    body .im-hero-palace__ampersand {
+        font-size: 15px !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-height: 620px) {
+    body .im-hero-palace__details {
+        top: 6px !important;
+    }
+
+    body .im-hero-palace__crest img {
+        width: 34px !important;
+    }
+
+    body .im-hero-palace__eyebrow {
+        font-size: 8.5px !important;
+        margin-bottom: 1px !important;
+    }
+
+    body .im-hero-palace__name {
+        font-size: 26px !important;
+    }
+
+    body .im-hero-palace__ampersand {
+        font-size: 14px !important;
+        margin: 0 !important;
+    }
 }
 
 @media (max-width: 640px) {
