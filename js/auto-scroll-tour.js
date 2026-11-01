@@ -27,11 +27,6 @@
             duration: 7000 // 7 seconds to view countdown timer
         },
         {
-            name: 'Photo Memories',
-            selector: '.im-gallery-coverflow',
-            duration: 7000 // 7 seconds to enjoy photo cards
-        },
-        {
             name: 'Wedding Functions Booklet',
             selector: '.im-flipcal',
             duration: 8000 // 8 seconds to view wedding events booklet
@@ -50,6 +45,11 @@
             name: 'Moments of Joy & Laughter Video',
             selector: '#celebration-video',
             duration: 6000 // 6 seconds on video teaser (stops if user plays)
+        },
+        {
+            name: 'Photo Memories',
+            selector: '.im-gallery-coverflow',
+            duration: 7000 // 7 seconds to enjoy photo cards
         },
         {
             name: 'Wedding Quote & Blessings',
