@@ -5688,3 +5688,235 @@ body .im-love-footer .im-love-footer__event-info {
     text-align: right;
 }
 
+
+/* =========================================================================
+   Our Wedding Dress Code Section
+   ========================================================================= */
+.im-dresscode-section {
+    position: relative;
+    padding: 70px 20px 80px;
+    background: #fbf5ee url('../assets/Subtle-Ivory-Paper-Texture.webp') repeat center center;
+    overflow: hidden;
+}
+
+.im-dresscode-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201,165,93,0.6), transparent);
+}
+
+.im-dresscode-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201,165,93,0.6), transparent);
+}
+
+.im-dresscode-section__inner {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.im-dresscode-section__header {
+    margin-bottom: 32px;
+}
+
+.im-dresscode-section__eyebrow {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    color: #b8860b;
+    margin: 0 0 4px;
+    line-height: 1.2;
+}
+
+.im-dresscode-section__title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #8b3a4b;
+    margin: 0 0 10px;
+    letter-spacing: 0.02em;
+}
+
+.im-dresscode-section__rule {
+    width: 140px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #c9a05a, transparent);
+    margin: 0 auto 14px;
+}
+
+.im-dresscode-section__subtitle {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #6a4a44;
+    margin: 0 auto;
+    max-width: 540px;
+    line-height: 1.6;
+}
+
+/* Ornate Framed Image Card */
+.im-dresscode-card-wrap {
+    max-width: 880px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+.im-dresscode-card-frame {
+    position: relative;
+    border-radius: 18px;
+    padding: 8px;
+    background: linear-gradient(135deg, #f5e4be 0%, #d4a64a 50%, #f7dfa4 100%);
+    box-shadow: 0 16px 40px -10px rgba(139, 58, 75, 0.22), 0 4px 16px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.im-dresscode-card-frame:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 48px -10px rgba(139, 58, 75, 0.3), 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.im-dresscode-card-frame::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 1px dashed rgba(255, 255, 255, 0.6);
+    border-radius: 14px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.im-dresscode-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06);
+}
+
+/* Quick-Reference Companion Cards */
+.im-dresscode-pills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.im-dresscode-pill-card {
+    background: #fffdf8;
+    border-radius: 14px;
+    padding: 22px 24px;
+    position: relative;
+    border: 1px solid rgba(201, 165, 93, 0.35);
+    box-shadow: 0 8px 24px rgba(139, 58, 75, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.im-dresscode-pill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(139, 58, 75, 0.14);
+}
+
+.im-dresscode-pill-card--yellow {
+    border-top: 4px solid #e5a922;
+}
+
+.im-dresscode-pill-card--bluegreen {
+    border-top: 4px solid #1c6b8c;
+}
+
+.im-dresscode-pill-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.im-dresscode-pill-icon {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.im-dresscode-pill-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4a252d;
+    margin: 0;
+    flex: 1;
+}
+
+.im-dresscode-pill-tag {
+    font-family: 'Jost', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.im-dresscode-pill-card--yellow .im-dresscode-pill-tag {
+    background: #fff4d1;
+    color: #946900;
+}
+
+.im-dresscode-pill-card--bluegreen .im-dresscode-pill-tag {
+    background: #e1f4f8;
+    color: #116075;
+}
+
+.im-dresscode-pill-desc {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    color: #553e39;
+    margin: 0 0 14px;
+}
+
+.im-dresscode-pill-prohibit {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a62a2a;
+    background: #fff1f1;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px dashed rgba(166, 42, 42, 0.35);
+}
+
+.im-dresscode-prohibit-icon {
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .im-dresscode-section {
+        padding: 50px 14px 60px;
+    }
+    .im-dresscode-section__title {
+        font-size: 34px;
+    }
+    .im-dresscode-section__eyebrow {
+        font-size: 26px;
+    }
+    .im-dresscode-card-frame {
+        padding: 5px;
+        border-radius: 14px;
+    }
+    .im-dresscode-pill-card {
+        padding: 18px 18px;
+    }
+}

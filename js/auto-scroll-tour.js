@@ -100,6 +100,12 @@
         });
 
         steps.push({
+            name: 'Our Wedding Dress Code',
+            selector: '#dress-code-section',
+            duration: 7500 // 7.5s to view attire guidelines
+        });
+
+        steps.push({
             name: 'RSVP Form',
             selector: '#rsvp-section',
             duration: 7500 // 7.5s on RSVP card
